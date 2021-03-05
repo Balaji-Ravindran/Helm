@@ -1,0 +1,9 @@
+global:
+  imagename: httpd
+  tagname: latest
+
+service:
+   nodePort: 32566
+   port: 80
+   targetPort: 80
+   type: NodePort
